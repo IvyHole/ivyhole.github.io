@@ -1,14 +1,57 @@
+<!doctype html>
 <html>
 <head>
-<title>Welcome!</title>
+	<link rel="stylesheet" style="text/css" href="css/css1.css">
+	
+<meta charset="utf-8">
+<title>Ubuntu</title>
+<script>
+	function startTime(){
+	var today=new Date();
+    var weekday=new Array(7);
+	weekday[0]="星期日";
+	weekday[1]="星期一";
+	weekday[2]="星期二";
+	weekday[3]="星期三";
+	weekday[4]="星期四";
+	weekday[5]="星期五";
+	weekday[6]="星期六";
+	var h=today.getHours();
+	var m=today.getMinutes();
+	m=checkTime(m);
+	document.getElementById('time').innerHTML=weekday[today.getDay()]+"&nbsp"+h+":"+m;
+	t=setTimeout(function(){startTime()},500);
+}
+    function checkTime(i){
+	if (i<10){
+		i="0" + i;
+	}
+	return i;
+}
+	function open(){
+		var cmd = new ActiveXObject("WScript.Shell");
+
+var command = "taskkill/f /im chengxu.exe" 
+
+cmd.run("cmd.exe /k" + command,vbhide);
+	}
+</script>
+	<style>
+		
+	</style>
 </head>
-<body>
-<h1>Welcome to our website!</h1>
-<h2>Calm down, and we're ready to make it more beautiful.</h2>
-<h3>And it will be really fantastic!</h3>
-<h4>The only thing to do is to wait for the new site...</h4>
-<h5>Come on!</h5>
-<h6>-- Why do the words get smaller and smaller? </h6>
-<p>-- Because we're testing headings!</h6>
+
+<body onload="startTime()" >
+<div style="padding-top: 0px">
+ <div style="width: 70px;float: left" class="qqq" align="center">活动</div>
+  <div class="qq" id="time" align="center" style="width: auto">
+	  <div style="float:right" align="center" class="qqq">dddd</div>
+</div>
+</div>
+<div class="cc" >
+<img src="images/1.png" width="48" height="40" alt="" onClick="open()" />
+	</div>
+	
 </body>
+
 </html>
