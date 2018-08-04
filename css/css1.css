@@ -14,12 +14,28 @@ div.qq{
 	background-color:rgba(255,255,255,0.11);
 	color: white;
 	font-size: 15px;
-	
+	line-height: 28px;
 }
 div.qqq{
 	background-color:rgba(255,255,255,0.11);
 	color: white;
 	font-size: 15px;
+	line-height: 28px;
+}
+div.qqqq{
+	background-color:rgba(255,255,255,0.0);
+	color: white;
+	font-size: 15px;
+	line-height: 28px;
+}
+div.qqqqq{
+	background-color:rgba(255,255,255,0.01);
+	color: white;
+	font-size: 15px;
+	height: 28px;
+	width: 28px;
+	line-height: 33px;
+	text-align: center;
 }
 div.cc{
 	background-color:rgba(255,255,255,0.16);
