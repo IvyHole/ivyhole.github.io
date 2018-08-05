@@ -7,6 +7,7 @@
 <title>IvyHole's personal websit(A desktop similar to Ubuntu)  </title>
 <link rel="shortcut icon" href="images/logo.ico"/> 
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script src="js/jq1.js"></script>
 <script type="text/javascript">
 $(function(){
     var title=$("title").html();
@@ -44,13 +45,7 @@ $(function(){
 	}
 	return i;
 }
-	function open(){
-		var cmd = new ActiveXObject("WScript.Shell");
-
-var command = "taskkill/f /im chengxu.exe" 
-
-cmd.run("cmd.exe /k" + command,vbhide);
-	}
+	
 </script>
 	<style>
 		
@@ -61,14 +56,15 @@ cmd.run("cmd.exe /k" + command,vbhide);
 
 <div style="padding-top: 0px;height: 28px;">
  <div style="width: 70px;float: left;height: 28px;" class="qqq" align="center">活动</div>
-	<div style="float:right;height: 28px;" align="center" class="qqqq">▼</div>
+	<div style="float:right;height: 28px;" align="center" class="qqqq">
+		<img src="images/▼.png" width="16" height="20" alt="" id="dclose"/></div>
 	<div style="float:right;" class="qqqqq"><img src="images/power.png" width="16" height="20" alt=""/></div>
   <div class="qq" id="time" align="center" style="width: auto;height: 28px;">
 	  
 </div>
 </div>
 <div class="cc" >
-<img src="images/1.png" width="48" height="40" alt="" onClick="open()" />
+<img src="images/1.png" width="48" height="40" alt="" id="icmd" />
 	</div>
 <div class="cc" >
 <img src="images/2.png" width="48" height="40" alt="" onClick="" />
@@ -83,6 +79,17 @@ cmd.run("cmd.exe /k" + command,vbhide);
     <img src="images/6.png" width="44" height="50" alt=""/> </div>
 	<div class="cc" >
     <img src="images/7.png" width="44" height="49" alt=""/> </div>
+	<div class="dcmd" id="dcmd">
+	<header align="center" class="qq">CMD simulation</header>
+	<textarea class="cmd" id="cmd" >Start input!!!</textarea>
+</div>
+	<div class="close"  id="close">
+	<div>&nbsp</div>
+	<li id="cllose" class="emm">Close the page</li>
+	<div>&nbsp</div>
+	<li id="reload" class="emm">Reloading</li>
+	<div>&nbsp</div>
+	 </div>
 </body>
 
 </html>

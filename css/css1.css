@@ -6,7 +6,7 @@ body {
     padding:-1px;
     width: 100%;
     height: 100%;
-	background-image: url(../images/background.png);
+	background-image: url(../images/background.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
@@ -26,7 +26,7 @@ div.qqqq{
 	background-color:rgba(255,255,255,0.0);
 	color: white;
 	font-size: 15px;
-	line-height: 28px;
+	line-height: 38px;
 }
 div.qqqqq{
 	background-color:rgba(255,255,255,0.01);
@@ -34,7 +34,7 @@ div.qqqqq{
 	font-size: 15px;
 	height: 28px;
 	width: 28px;
-	line-height: 33px;
+	line-height: 38px;
 	text-align: center;
 }
 div.cc{
@@ -44,4 +44,47 @@ div.cc{
 	text-align: center;
 	line-height: 87px;
 
+}
+textarea.cmd{
+			background-color:#9E004E;
+			height: 700px;
+			width: 600px;
+			color: white;
+			border-bottom:3px solid #00A8D3;
+			border-left:3px solid #00A8D3;
+			border-right:3px solid #00A8D3;
+			border-top:1px solid #00A8D3;
+			
+		}
+		header.qq{
+			color: white;
+			background-color: #352D2D;
+			width: 604px;
+	
+			border-left:3px solid #00A8D3;
+			border-right:3px solid #00A8D3;
+			border-top:3px solid #00A8D3;	
+		}
+		div.dcmd{
+			height: 700px;
+			width: 600px;
+			margin-left: 100px;
+			position: absolute;
+			top: 100px;
+			display:none;
+			
+		}
+div.close{
+			background:#006245;
+			color: white;
+			width: 300px;
+			border:2px solid #000000;
+			display: none;
+			position: absolute;
+			top:30px; 
+	        right: 2px;
+			float: right;
+		}
+li.emm{
+	cursor: default;
 }
