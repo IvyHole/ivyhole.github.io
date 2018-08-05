@@ -21,3 +21,9 @@ $(function(){
 		location.reload();
 	});
 });
+$(function(){
+	$("#ibaidu").click(function(){
+		$("#baidu").toggle();
+	});
+	
+});
