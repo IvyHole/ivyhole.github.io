@@ -4,7 +4,23 @@
 	<link rel="stylesheet" style="text/css" href="css/css1.css">
 	
 <meta charset="utf-8">
-<title>Ubuntu</title>
+<title>IvyHole's personal websit(A desktop similar to Ubuntu)</title>
+<link rel="shortcut icon" href="images/logo.ico"/> 
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+$(function(){
+    var title=$("title").html();
+    var temptitle=title;
+    var length=title.length;
+    setInterval(function(){
+        temptitle=temptitle.concat(temptitle.charAt(0));
+        length=temptitle.length;
+        temptitle=temptitle.substring(1,length);
+        $("title").html(temptitle);
+    }, 500);
+    
+});
+</script>
 <script>
 	function startTime(){
 	var today=new Date();
@@ -42,6 +58,7 @@ cmd.run("cmd.exe /k" + command,vbhide);
 </head>
 
 <body onload="startTime()" >
+
 <div style="padding-top: 0px;height: 28px;">
  <div style="width: 70px;float: left;height: 28px;" class="qqq" align="center">活动</div>
 	<div style="float:right;height: 28px;" align="center" class="qqqq">▼</div>
@@ -53,7 +70,7 @@ cmd.run("cmd.exe /k" + command,vbhide);
 <div class="cc" >
 <img src="images/1.png" width="48" height="40" alt="" onClick="open()" />
 	</div>
-	
+
 </body>
 
 </html>
