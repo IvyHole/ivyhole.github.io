@@ -113,3 +113,18 @@ input.ko{
 		b.baidu{
 			font-size: 35px;
 		}
+div.buy{
+	color: #FFFFFF;
+	width: auto;
+	height: 32px;
+	position: absolute;
+	bottom: 0px;
+	left:47%;
+	cursor: default;
+	font-family: myfristfont;
+	font-size: 30px;
+}
+@font-face{
+	font-family:myfristfont;
+	src:url(font/FancyText.ttf);
+}
