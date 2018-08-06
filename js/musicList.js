@@ -6,7 +6,7 @@ var musicList = [
         singer : 'Alan Walker\Au/Ra\Tomine Harket',
         cover  : 'musiccover/Darkside.jpg',
         src    : 'music/Darkside.flac',
-		lyric  : "lrc/Counting Stars.lrc"
+		lyric  : "lrc/Darkside.lrc"
     },
 	{
         title : 'Counting Stars',
