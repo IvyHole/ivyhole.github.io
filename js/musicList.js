@@ -33,14 +33,14 @@ var musicList = [
         title : '彼女は旅に出る',
         singer : '鎖那',
         cover  : 'musiccover/彼女は旅に出る.jpg',
-        src    : 'music/彼女は旅に出る.flac',
+        src    : 'music/彼女は旅に出る.mp3',
 		lyric  : "lrc/彼女は旅に出る.lrc"
     },
 	{
         title : '前前前世',
         singer : 'Radwimps',
         cover  : 'musiccover/前前前世.jpg',
-        src    : 'music/前前前世.flac',
+        src    : 'music/前前前世.mp3',
 		lyric  : "lrc/前前前世.lrc"
     },
     ]
