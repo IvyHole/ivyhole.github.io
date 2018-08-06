@@ -27,3 +27,9 @@ $(function(){
 	});
 	
 });
+$(function(){
+	$("#imusic").click(function(){
+		$("#dmusic").slideToggle("slow");
+	});
+	
+});
