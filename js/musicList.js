@@ -1,6 +1,4 @@
-/**
- * Created by Smohan on 2015/5/15.
- */
+
     
 var musicList = [
     {

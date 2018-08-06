@@ -461,7 +461,7 @@
                     text = text ? text : '--- smusic ---';
                     tpl += '<li class="u-lyric f-toe" data-time="'+time+'">'+text+'</li>';
                 }
-                tpl && (tpl += '<li class="u-lyric">www.smohan.net</li>');
+                tpl && (tpl += '<li class="u-lyric">ivyhole.github.io</li>');
             }else{
                 tpl = '<li class="eof">暂无歌词...</li>';
             }
