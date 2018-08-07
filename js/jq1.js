@@ -32,7 +32,7 @@ $(function(){
 		$("#dmusic").slideToggle("slow");
 	});
 	$("tenggit").click(fuction(){
-	        windows.opener = "https://tenggit.github.io";
-		windows.close();
+	        window.opener = "https://tenggit.github.io";
+		window.close();
         });
 });
