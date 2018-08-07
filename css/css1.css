@@ -131,3 +131,8 @@ div.buy{
 div.musics{
 	display: none;
 }
+div.my-minecraft{
+        position:absolute;
+	bottom:0px;
+	right:0px;
+}
