@@ -31,8 +31,5 @@ $(function(){
 	$("#imusic").click(function(){
 		$("#dmusic").slideToggle("slow");
 	});
-	$("tenggit").click(fuction(){
-	        window.opener = "https://tenggit.github.io";
-		window.close();
-        });
+	
 });
