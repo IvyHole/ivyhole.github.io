@@ -13,10 +13,68 @@
 <title>IvyHole's personal websit(A desktop similar to Ubuntu)  </title>
 <link rel="shortcut icon" href="images/logo.ico"/> 
  <link rel="stylesheet" href="css/smusic.css"/>	
+	<link rel="stylesheet" style="text/css" href="css/jquery.growl.css">
+	<script src="js/jquery.growl.js" style="text/javascript"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 	<script src="js/jquery.color-2.1.2.js"></script>
 <script src="js/jq1.js"></script>
+	<style>
+		#growls.default {  
+            top: 50px!important;  
+            right: 100px!important;
+        }
+	</style>
 <script type="text/javascript">
+	$(function(){
+	$.growl({
+		title:"新功能",
+		message:"增加提醒框！"
+	});
+	$.growl({
+		title:"新功能",
+		message:"右下角可调出minecraft皮肤。"
+	});
+	$('#i').click(function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      return $.growl.notice({
+      	title: "提醒",
+        message: "该功能未开放!请联系管理员。"
+      });
+    });
+	$("#ii").click(function(event){
+	event.preventDefault();
+      event.stopPropagation();
+      return $.growl.notice({
+      	title: "提醒",
+        message: "该功能未开放!请联系管理员。"
+      });
+	});
+	$("#iii").click(function(event){
+	event.preventDefault();
+      event.stopPropagation();
+      return $.growl.notice({
+      	title: "提醒",
+        message: "该功能未开放!请联系管理员。"
+      });
+	});
+	$("#iiii").click(function(event){
+	event.preventDefault();
+      event.stopPropagation();
+      return $.growl.notice({
+      	title: "提醒",
+        message: "该功能未开放!请联系管理员。"
+      });
+	});
+	$("#iiiii").click(function(event){
+	event.preventDefault();
+      event.stopPropagation();
+      return $.growl.notice({
+      	title: "提醒",
+        message: "该功能未开放!请联系管理员。"
+      });
+	});
+});
 $(function(){
     var title=$("title").html();
     var temptitle=title;
@@ -75,18 +133,18 @@ $(function(){
 <img src="images/1.png" width="48" height="40" alt="" id="icmd" />
 	</div>
 <div class="cc" >
-<img src="images/2.png" width="48" height="40" alt="" onClick="" />
+<img src="images/2.png" width="48" height="40" alt="" onClick=""  id="i"/>
 	</div>
 	<div class="cc" >
-    <img src="images/3.png" width="44" height="45" alt=""/> </div>
+    <img src="images/3.png" width="44" height="45" alt="" id="ii"/> </div>
 	<div class="cc" >
     <img src="images/4.png" width="48" height="44" alt="" id="imusic"/> </div>
 	<div class="cc" >
-    <img src="images/5.png" width="42" height="50" alt=""/> </div>
+    <img src="images/5.png" width="42" height="50" alt="" id="iii"/> </div>
 	<div class="cc" >
-    <img src="images/6.png" width="44" height="50" alt=""/> </div>
+    <img src="images/6.png" width="44" height="50" alt="" id="iiii"/> </div>
 	<div class="cc" >
-    <img src="images/7.png" width="44" height="49" alt=""/> </div>
+    <img src="images/7.png" width="44" height="49" alt="" id="iiiii"/> </div>
 	<div class="cc">
 	<img src="images/8.png" width="45" height="49" alt="" id="ibaidu"/></div>
 	
@@ -168,6 +226,7 @@ $(function(){
         }
     });
 </script>
-</body>
 
+	
+</body>
 </html>
