@@ -136,3 +136,13 @@ div.my-minecraft{
 	bottom:0px;
 	right:0px;
 }
+img.imy{
+	width: 400px;
+	height: 400px; 
+	position: absolute;
+}
+div.hide{
+        position:absolute;
+	bottom:-3px;
+	right:-1px;
+}

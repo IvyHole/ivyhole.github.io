@@ -33,3 +33,37 @@ $(function(){
 	});
 	
 });
+$(function(){
+	$("#ddimy").mouseover(function(){
+		$("#dimy").animate({
+			width:'400px',
+			height:'400px'
+		},700);
+	});
+	$("#ddimy").mouseout(function(){
+		$("#dimy").animate({
+			width:'40px',
+			height:'40px'
+		},700);
+	});
+	$("#ddimy").click(function(){
+		var q=0;
+		if(q===0){
+			$("#dimy").animate({
+			width:'400px',
+			height:'400px'
+		},700);
+			q=1;
+		}
+		else{
+			$("#dimy").animate({
+			width:'40px',
+			height:'40px'
+		},700);
+			q=0;
+		}
+	});
+	
+		
+	
+});
