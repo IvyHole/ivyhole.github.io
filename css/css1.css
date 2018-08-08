@@ -133,12 +133,13 @@ div.musics{
 }
 div.my-minecraft{
         position:absolute;
-	bottom:0px;
-	right:0px;
+	bottom:-2px;
+	right:-3px;
+	
 }
 img.imy{
 	width: 400px;
-	height: 400px; 
+	height: 400px;
 	position: absolute;
 }
 div.hide{
