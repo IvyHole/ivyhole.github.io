@@ -26,11 +26,7 @@ $(function(){
 		$("#baidu").toggle();
 	});
 	
-});
-$(function(){
-	$("#imusic").click(function(){
-		$("#dmusic").slideToggle("slow");
-	});
+
 	
 });
 $(function(){

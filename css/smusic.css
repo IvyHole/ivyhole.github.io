@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);word-wrap: break-word;font-size: inherit;line-height: inherit;overflow: visible;}
+html,body,div,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);word-wrap: break-word;font-size: inherit;line-height: inherit;overflow: visible;}
 header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
 .f-cb{height: 0;}
 .f-cb:after{display:block;content:" ";height:0;visibility:hidden;clear: both;}
@@ -37,7 +37,9 @@ header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{d
 ::-webkit-scrollbar-thumb:vertical:hover,
 ::-webkit-scrollbar-thumb:vertical:active {background-color: #2e86ef}
 
-
+body{
+	background: #00495F;
+}
 
 /*SMusic*/
 .grid-music-container{
@@ -361,4 +363,16 @@ header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{d
     line-height: 250px;
     font-size: 20px;
     color: #999;
+}
+input.back{
+	border: 1px solid #000000;
+	background: #66ccff;
+	height: 40px;
+	width: 100px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #888888
+}
+div.backk{
+	position: absolute;
+	right: 47%;
 }
