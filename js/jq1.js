@@ -25,7 +25,9 @@ $(function(){
 	$("#ibaidu").click(function(){
 		$("#baidu").toggle();
 	});
-	
+	$('#dame').click(function() {
+      $("#dam").toggle();
+    });
 
 	
 });
@@ -43,7 +45,9 @@ $(function(){
 			right:'-3px'
 		},700);
 	});
+	
 });
+
 
 
 
