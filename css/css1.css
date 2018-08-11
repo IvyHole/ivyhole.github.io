@@ -162,7 +162,7 @@ div.dam{
 			border-right-color: #00FF00;
 			border-radius: 20px;
 			line-height: 50px;
-	display: none;
+	        display: none;
 		}
 		button.dambot{
 			width: auto;

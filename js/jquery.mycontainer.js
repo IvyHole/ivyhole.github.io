@@ -18,7 +18,7 @@
                 ihm.css({
                     right: (i += 1) + "px"
                 });
-                if ((ihm.offset().left + ihm.width()) < container.offset().left) {
+                if (ihm.offset().right > container.offset().width()) {
                     ihm.remove();
                     clearInterval(timer);
                 }
