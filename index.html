@@ -26,7 +26,7 @@
 	
 	$.growl({
 		title:"新功能",
-		message:"增加提醒框！"
+		message:"可通过右方第5个图标进入C/c++语言学习用代码处！"
 	});
 	$.growl({
 		title:"新功能",
@@ -38,14 +38,6 @@
 	});
 	
 	$("#ii").click(function(event){
-	event.preventDefault();
-      event.stopPropagation();
-      return $.growl.notice({
-      	title: "提醒",
-        message: "该功能未开放!请联系管理员。"
-      });
-	});
-	$("#iii").click(function(event){
 	event.preventDefault();
       event.stopPropagation();
       return $.growl.notice({
@@ -134,7 +126,7 @@ $(function(){
 	<div class="cc" >
     <img src="images/4.png" width="48" height="44" alt="" id="imusic" onclick="window.location='music.html';"/> </div>
 	<div class="cc" >
-    <img src="images/5.png" width="42" height="50" alt="" id="iii"/> </div>
+    <img src="images/5.png" width="42" height="50" alt="" id="iii" onclick="window.location='https://github.com/IvyHole/c'"/> </div>
 	<div class="cc" >
     <img src="images/6.png" width="44" height="50" alt="" id="iiii"/> </div>
 	<div class="cc" >
